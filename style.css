@@ -1,0 +1,89 @@
+/* Fonte padrão para o site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5; /* Cor de fundo clara */
+    color: #333333; /* Texto em cinza escuro para melhor legibilidade */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    background-color: #003366; /* Azul escuro comum em sites governamentais */
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para destaque */
+    border-bottom: 5px solid #FFD700; /* Faixa inferior amarela */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Estilo da área de conteúdo principal */
+#conteudo {
+    background-color: #FFFFFF; /* Fundo branco para destaque */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+    width: 80%;
+    max-width: 600px;
+    max-height: 70vh; /* Limita a altura máxima do conteúdo principal */
+    overflow: auto; /* Adiciona rolagem quando necessário */
+}
+
+/* Estilo do seletor de estado */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #CCCCCC; /* Borda cinza clara */
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #003366; 
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #002244; 
+}
+
+
+#cidadeDetalhes {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 300px; 
+    overflow-y: auto; 
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #E9E9E9; 
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
